@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    margin-left: 40%;
+}
+.container-fluid{
+    position: absolute;
+  top: 40%;
+
+}
+.chicken,.beef ,.sushi{
+    display: block;
+margin: 30px;
+background-color: darkgray;
+color: black;
+    border: 5px solid black;
+}
+
+.chicken p,.beef p,.sushi p{
+
+    margin-top: 50px;
+
+}
+.chicken h3{
+    background-color: lightcoral;
+}
+.beef h3{
+    background-color: pink;
+}
+.sushi h3{
+    background-color: lightyellow;
+}
+h3{
+    float: right;
+    border: 5px solid rgb(13, 14, 13);
+    border-right: 0px ;
+    border-top: 0px;
+    margin-right: -11px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: green;
+    }
+    /* For tablets: */
+    .chicken{
+        
+        width:33.33%;
+    }
+
+.beef{
+    width:66.66%;
+}
+.sushi{
+    width: 100%;
+}
+}
